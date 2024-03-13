@@ -1,0 +1,2 @@
+000000000101000000000000001010000010010000110010000 // cnn_size, ptr_out, ptr_in ,buffer_line, gemm_size, out_signal, state_signal, acc_map
+000100001111100000101000001011000010010000111110100 // cnn   // ptr_out, ptr_in  minus 1 need
