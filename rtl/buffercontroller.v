@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 2024/03/05 19:37:27
-// Design Name: 
-// Module Name: buffercontroller
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module buffer_controller(clk, rst, finish_sign, instruction,  address, gemm_size, state_signal, ptr_in, ptr_out, acc_map, buffer_line, gemm_out_signal, cnn_size);
     input clk, rst;
