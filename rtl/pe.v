@@ -1,23 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 09/25/2023 09:00:32 PM
-// Design Name: 
-// Module Name: pe
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
+
 module pe(clk,rst,state, row_in, col_in , weight, row_result, col_result ,flag, gemm_valid, sync_reset, gemm_valid2);
 // clk: clock , rst : reset, 
 // data_in1
